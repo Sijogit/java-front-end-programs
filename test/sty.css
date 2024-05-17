@@ -1,0 +1,138 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-login{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   background-image: url(./images/image.jpg.webp);
+   background-size: cover;
+   background-position: center;
+}
+.main-register{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(./images/close-up-laptop-workplace-with-glowing-linear-web-text-hologram-blurry-background-digital-nft-technology-future-concept-double-exposure_670147-35346.avif);
+    background-size: cover;
+    background-position: center;
+ }
+
+.head h1{
+    color: aqua;
+    margin-top: 2%;
+}
+.wrapper{
+    width: 350px;
+    height: 350px;
+    margin: 0px 20px 20px 0px; 
+    background: transparent;
+    border: 1px solid rgba(255,255,255,.2);
+    box-shadow: 0 0 10px;
+    backdrop-filter: blur(20px);
+    color: white;
+    border-radius: 20px;
+    padding: 20px 20px 20px 20px;
+}
+.wrapper h1{
+    font-size: 40px;
+    text-align: center;
+}
+.wrapper .input-box{
+    width: 100%;
+    height: 10px;
+    margin: 50px 0px;
+}
+ .input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border:1px solid rgba(255,255,255,2);
+    border-radius: 40px;
+    font-size: 20px;
+    padding: 20px 20px 20px 20px;
+}
+.input-box input::placeholder{
+    color: rgb(247, 246, 246);
+    
+}
+.button{
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+
+}
+.register-link{
+    text-align: center;
+    margin-top: 15px;
+}
+.register-link p a{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+.register-link p a:hover{
+    text-decoration: underline;
+}
+.login-link{
+    text-align: center;
+    margin-top: 15px;
+}
+.login-link p a{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+.login-link p a:hover{
+    text-decoration: underline;
+}
+
+/* home pade */
+
+.container{
+  width: 100%;
+  height: 100vh;
+
+  
+
+}
+.navbar{
+    background-image: url(./images/pngtree-futuristic-shape-abstract-background-chemistry-technology-concept-for-website-image_438818.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+}
+.logout-btn{
+    margin-bottom: 250px;
+    margin-right: 10px;
+    
+
+}
+.logout-btn button{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: yellow;
+
+}
+.heading1{
+    margin-left: 20px;
+}
+
+.heading1 h1{
+    margin-bottom: 250px;
+    color: white;
+    
+}
+.heading2{
+    text-align: center;
+    margin-top: 2px;
+  
+}
